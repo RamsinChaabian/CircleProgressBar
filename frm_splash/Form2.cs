@@ -9,6 +9,7 @@ namespace circle_progressbar
         public Form2()
         {
             CheckForIllegalCrossThreadCalls = false;
+
             Thread thread = new Thread(splash);
             thread.Start();
             Thread.Sleep(7000);
