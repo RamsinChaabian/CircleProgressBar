@@ -15,7 +15,6 @@ namespace circle_progressbar
             Thread.Sleep(7000);
 
             InitializeComponent();
-
             circleProgressBar.Close();
 
         }
