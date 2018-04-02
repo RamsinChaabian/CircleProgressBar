@@ -25,7 +25,6 @@ namespace circle_progressbar
                 {
                     new Thread(progressUpdate).Start(num);
                     Thread.Sleep(60);
-                    if (num == 100) Application.Exit();
                 }
             });
         }
@@ -33,7 +32,7 @@ namespace circle_progressbar
         private void progressUpdate(object progress)
         {
             pb_progressbar.Invoke(
-                (MethodInvoker) delegate { pb_progressbar.updateProgress(Convert.ToInt32(progress)); });
+                (MethodInvoker)delegate { pb_progressbar.updateProgress(Convert.ToInt32(progress)); });
         }
     }
 }
