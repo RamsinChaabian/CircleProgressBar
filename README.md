@@ -26,5 +26,5 @@ PM> Install-Package CircleProgressBar -Version 1.0.0
 ### Social Media:
 ![logo](https://telegram.org/img/t_logo.png)
 
-[Telegram Channel From References](t.me/PublicReference)
+[Telegram Channel From References](https://t.me/PublicReference)
 
