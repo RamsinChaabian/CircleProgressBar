@@ -38,6 +38,7 @@
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
+            this.TopMost = true;
             this.ResumeLayout(false);
 
         }
