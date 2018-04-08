@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C1E6C8E0-8716-48FD-96BF-888893049FE2}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>circle_progressbar</RootNamespace>
     <AssemblyName>circle_progressbar</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
